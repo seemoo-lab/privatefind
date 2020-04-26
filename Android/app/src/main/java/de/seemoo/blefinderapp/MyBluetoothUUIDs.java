@@ -1,0 +1,24 @@
+package de.seemoo.blefinderapp;
+
+import java.util.UUID;
+
+public class MyBluetoothUUIDs {
+	//0000XXXX-0000-1000-8000-00805f9b34fb
+	public static final UUID IMMEDIATE_ALERT_SERVICE = UUID.fromString("00001802-0000-1000-8000-00805f9b34fb");
+	public static final UUID LINKLOSS_ALERT_SERVICE = UUID.fromString("00001803-0000-1000-8000-00805f9b34fb");
+	public static final UUID BATTERY_SERVICE = UUID.fromString("0000180F-0000-1000-8000-00805f9b34fb");
+	public static final UUID BATTERY_LEVEL_CHAR = UUID.fromString("00002a19-0000-1000-8000-00805f9b34fb");
+	public static final UUID ALERT_LEVEL_CHAR = UUID.fromString("00002a06-0000-1000-8000-00805f9b34fb");
+
+	public static final UUID CRYPTO_FINDER_SERVICE = UUID.fromString("ABC01577-0000-1234-1234-00FFFFFFFFFF");
+	public static final UUID E2E_KEY_CHAR = UUID.fromString("ABC01580-0000-1234-1234-00FFFFFFFFFF");
+	public static final UUID SETUP_CHALLENGE_CHAR = UUID.fromString("ABC01581-0000-1234-1234-00FFFFFFFFFF");
+	public static final UUID GEOLOC_CHAR = UUID.fromString("ABC01582-0000-1234-1234-00FFFFFFFFFF");
+	public static final UUID IAMLOST_CHAR = UUID.fromString("ABC01583-0000-1234-1234-00FFFFFFFFFF");
+	public static final UUID MESSAGE_CHAR = UUID.fromString("ABC01584-0000-1234-1234-00FFFFFFFFFF");
+
+
+
+	public static final UUID CLIENT_CHARACTERISTIC_CONFIG = UUID.fromString("00002902-0000-1000-8000-00805f9b34fb");
+
+}
