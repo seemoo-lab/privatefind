@@ -51,7 +51,7 @@ the cost of privacy. Moreover, finder identities are currently not randomized bu
 As a reference for what is currently implemented, take a look at the following diagrams that describe setup
 and reporting of lost finders.
 
-![Setup][setup.png]
+![Setup](setup.png)
 
 
-![Report][report.png]
+![Report](report.png)
